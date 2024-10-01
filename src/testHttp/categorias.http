@@ -4,9 +4,12 @@
 GET {{url}}/categorias
 
 ###
+GET {{url}}/categorias/2
+
+###
 POST {{url}}/categorias
 Content-Type: application/json
 
 {
-    "nome": "Arquitetura de APIs"
+    "nome": "Arquitetura de APIs 1"
 }
